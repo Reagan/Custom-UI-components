@@ -1,0 +1,30 @@
+List of custom components - AS Remind
+~------------------------------------
+
+1. [x] MinimalPanel  - Displays tracking/reminding information
+2. [x] BasePanel - stores the main application panel
+3. AnimatedMenu - stores the main application menu for the application
+4. [x] MinimizeButton - initialises the minimise action
+5. [x] closeButton - closes the application
+6. AnimatedMenuItems - contains text and actions for the Animated Menu
+7. [x] ClockComponent - displays the animated clock item that is displayed in the 
+                    Activities panel
+8. [x] DateString - this is displayed below the clockComponent
+9. [x] ActivityComponent - this is the base class extended to display the current activity 
+			and the list of activities for the day
+10. [x] CurrentActivityComponent - displays the current activity on the main page. extends ActivityCompobent
+11. [x] ActivitiesListComponent - displays a number of the recent activities to be displayed. extends
+	ActivityComponent
+12. [x] Divider - This is the dotted line that appears to divide the various sections of the panels
+13. Timetable - Displays the activities in a calendar/timetable format. Displayed in schedule panel
+14. ItemList - displays the list of the days (Schedule panel) or the number of messages (plus the Add& delete functionality
+in the Track page) - on the left side of the screen
+15. TrackMessagesList - displays the list of track messages listed in the Track page
+16. TrackMessagesTextArea - allows one to enter the track messages for the Track page
+
+Main panels 
+~----------
+1. [x] MenuPanel - forms the top section of the application and stores the application menu
+2. [x] BaseContentPanel - forms the center part of the application and stores the main application window
+3. [x] TitlePanel - stores the current action for the MinimalPanel
+4. [x] MinimalContentPanel - stores the main body for the MinimalPanel
